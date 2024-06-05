@@ -140,15 +140,16 @@ footer {
 }
 
 .legend-container {
-	position: fixed;
-	bottom: 0;
-	right: 0;
+	position: sticky;
+	margin-left: auto;
+	margin-top: auto;
 	width: 200px;
 	height: 200px;
 	background-color: #333;
 	color: white;
 	border: 1px solid #ccc;
 	padding-left: 50px;
+	bottom: 20px;
 }
 
 .legend {
